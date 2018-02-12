@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+    
+{% block main %}
+    
+<html>    
+<body>   
+    <div>
+        <div>
+            <img src = "{{url_for('static', filename = 'shaq.jpg')}}"/>
+        </div>
+        
+        
+        <div><h1>Shaquille Martin</h1></div>
+        <div id="user">
+            <h5>Shaqvendetta</h5>
+            <h4>St Catherine, Jamaica</h4>
+            <h4>{{formatted_date}}</h4>
+        </div>
+        
+    </div>
+    
+    <div>
+    
+        <div><p>I am a hardworking and focus amd I always try to do my best in whatever task i'm doing. .</p></div>
+     
+            
+        <div>
+            <h5><strong>17</strong></h5>
+            <label>Posts</label>
+        </div>
+
+        <div >
+            <h5><strong>750</strong></h5>
+            <label>Following</label>
+        </div>
+        
+        <div>
+            <h5><strong>1013</strong></h5>
+            <label>Followers</label>
+        </div>
+        
+    
+        <div><button>Follow</button></div>
+    </div>
+</body>
+ 
+</html>
+{% endblock %}

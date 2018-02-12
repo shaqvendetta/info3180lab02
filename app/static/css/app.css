@@ -1,0 +1,9 @@
+body{
+    padding-top: 5rem;
+    font-family: "Cambria";
+    width: 700px;
+    height:750px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin:auto;
+}
